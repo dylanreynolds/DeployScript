@@ -1,5 +1,5 @@
 # Edit the URL to your blob storage path
-$PSurl= "https://xxx.blob.core.windows.net/printerdrivers/PrinterMapping.ps1"
+$PSurl= "https://xxx.blob.core.windows.net/[folder]/[yourscript].ps1"
 
 # Location where we will add the script to run on logon
 $regKeyLocation="HKCU:\Software\Microsoft\Windows\CurrentVersion\Run"
